@@ -12,6 +12,8 @@ Chapter 6 contains:
 ## Contents of Chapter 6 Folder
 
 
-* [Affinity](Thesis/Chapter 6/Affinity)
+* **Affinity**
     Contains the scripts used to process the binding affinity datasets. It has three files:
-    * [main]()
+    * [main](Chapter 6/Affinity/main.py): Main script for the processing of SKEMPI, PROXiMATE, and PDBbind datasets.
+    * [processing](Chapter 6/Affinity/processing.py): Script used to delete sequences with non-canonical amino acids and those sequences over 1024 amino acids long. 
+    * [processing_functions.py](Chapter 6/Affinity/processing_functions.py): Script containing the developed functions to pre-process the datasets. It includes functions to retrieve protein sequences from the PDB database, to eliminate multimer complexes, to apply mutations, and many more. 
