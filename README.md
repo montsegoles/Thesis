@@ -12,8 +12,11 @@ Chapter 6 contains:
 ## Contents of Chapter 6 Folder
 
 
-* **Affinity**
+* **Affinity** /par 
     Contains the scripts used to process the binding affinity datasets. It has three files:
     * [main](./Chapter_6/Affinity/main.py): Main script for the processing of SKEMPI, PROXiMATE, and PDBbind datasets.
     * [processing](../Chapter_6/Affinity/processing.py): Script used to delete sequences with non-canonical amino acids and those sequences over 1024 amino acids long. 
-    * [processing_functions.py](/Chapter 6/Affinity/processing_functions.py): Script containing the developed functions to pre-process the datasets. It includes functions to retrieve protein sequences from the PDB database, to eliminate multimer complexes, to apply mutations, and many more. 
+    * [processing_functions.py](../Chapter_6/Affinity/processing_functions.py): Script containing the developed functions to pre-process the datasets. It includes functions to retrieve protein sequences from the PDB database, to eliminate multimer complexes, to apply mutations, and many more. 
+* **Binary** /par
+    Contains folders which have the processing of the binary datasets. Each subfolder has its specific inputs, outputs, and respective scripts used for processing.
+    * [negatome_processing] (./Chapter_6/Binary/Binary/Binary_Negatives/negatome_processing.ipynb): Jupiter Notebook with the pricessing procedement for the negatome databaser negative interaction data.
